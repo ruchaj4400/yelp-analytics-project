@@ -1,0 +1,55 @@
+# Data files (too large for GitHub)
+data/*.json
+data/*.csv
+data/*.parquet
+*.json
+*.csv
+
+# Keep the data folder structure
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+config.py
+credentials.json
+
+# AWS credentials
+.aws/
+*.pem
+
+# Snowflake credentials
+snowflake_credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
